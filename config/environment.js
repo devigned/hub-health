@@ -43,5 +43,15 @@ module.exports = function(environment) {
 
   }
 
+  ENV.contentSecurityPolicy = {
+  'default-src': "'none'",
+  'script-src': "'self'",
+  'font-src': "'self'",
+  'connect-src': "'self' https://api.github.com",
+  'img-src': "'self' http://placehold.it",
+  'style-src': "'self' 'unsafe-inline'", // Allow inline styles
+  'media-src': "'self'"
+}
+
   return ENV;
 };
