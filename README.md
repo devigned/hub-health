@@ -1,7 +1,8 @@
-# Pm
+# Hub-Health
 
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+
+Hub health is a dashboard for viewing the overall health of your github repos.
 
 ## Prerequisites
 
