@@ -1,53 +1,39 @@
-# Hub-Health
+# Hub::Health
 
-This README outlines the details of collaborating on this Ember application.
+Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/hub/health`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-Hub health is a dashboard for viewing the overall health of your github repos.
-
-## Prerequisites
-
-You will need the following things properly installed on your computer.
-
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://www.ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
+Add this line to your application's Gemfile:
 
-## Running / Development
+```ruby
+gem 'hub-health'
+```
 
-* `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+And then execute:
 
-### Code Generators
+    $ bundle
 
-Make use of the many generators for code, try `ember help generate` for more details
+Or install it yourself as:
 
-### Running Tests
+    $ gem install hub-health
 
-* `ember test`
-* `ember test --server`
+## Usage
 
-### Building
+TODO: Write usage instructions here
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+## Development
 
-### Deploying
+After checking out the repo, run `bin/setup` to install dependencies. Then, run `bin/console` for an interactive prompt that will allow you to experiment.
 
-Specify what it takes to deploy your app.
+To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release` to create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
-## Further Reading / Useful Links
+## Contributing
 
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://www.ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+1. Fork it ( https://github.com/[my-github-username]/hub-health/fork )
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new Pull Request
