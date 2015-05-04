@@ -1,0 +1,11 @@
+---
+repos:
+  - "azure/azure-sdk-for-ruby"
+  - "azure/azure-sdk-for-python"
+  - "azure/azure-sdk-for-java"
+  - "azure/azure-sdk-for-net"
+  - "azure/azure-sdk-for-php"
+  - "azure/azure-xplat-cli"
+  - "azure/azure-powershell"
+user:
+  token: "your github token"

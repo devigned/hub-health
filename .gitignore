@@ -18,3 +18,7 @@ testem.log
 
 .ruby-version
 Gemfile.lock
+.mcstuffins.yaml
+
+.idea/
+.DS_Store
