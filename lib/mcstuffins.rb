@@ -21,7 +21,7 @@ Dir[File.join(File.dirname(__FILE__), 'mcstuffins/repositories/**/*.rb')].each{|
 # CLI
 require 'mcstuffins/config'
 require 'mcstuffins/cli/exiting_thor'
-require 'mcstuffins/cli/collect'
+Dir[File.join(File.dirname(__FILE__), 'mcstuffins/cli/**/*.rb')].each{|f| require f}
 require 'mcstuffins/doc'
 
 Octokit.auto_paginate = true

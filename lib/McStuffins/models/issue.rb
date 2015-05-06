@@ -5,9 +5,10 @@ module McStuffins
   module Models
     class Issue
       include Elasticsearch::Persistence::Model
-      include Base
 
-      attribute :repository,    String
+      index_name 'github-issues'
+
+      attribute :repository,    String,         mapping: {type: 'string', index: 'not_analyzed'}
       attribute :url,           String
       attribute :labels_url,    String
       attribute :comments_url,  String
@@ -16,7 +17,7 @@ module McStuffins
       attribute :id,            Integer
       attribute :number,        Integer
       attribute :title,         String
-      attribute :state,         String
+      attribute :state,         String,         mapping: {type: 'string', index: 'not_analyzed'}
       attribute :locked,        Boolean
       attribute :assignee,      String
       attribute :milestone,     String

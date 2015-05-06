@@ -19,5 +19,9 @@ module McStuffins
 
     desc 'collect COMMANDS', 'Collect data from sources'
     subcommand 'collect', McStuffins::CLI::Collect
+
+    desc 'status COMMANDS', 'Get status from services'
+    subcommand 'status', McStuffins::CLI::Status
+
   end
 end

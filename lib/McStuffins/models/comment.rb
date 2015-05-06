@@ -4,7 +4,6 @@ module McStuffins
   module Models
     class Comment
       include Elasticsearch::Persistence::Model
-      include Base
 
       attribute :url,         String
       attribute :html_url,    String

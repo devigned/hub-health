@@ -9,3 +9,5 @@ repos:
   - "azure/azure-powershell"
 user:
   token: "your github token"
+elasticsearch:
+  host: "http://localhost:9200"

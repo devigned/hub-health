@@ -2,7 +2,6 @@ module McStuffins
   module Models
     class User
       include Elasticsearch::Persistence::Model
-      include Base
 
       attribute :login,               String
       attribute :id ,                 Integer
